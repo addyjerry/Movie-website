@@ -1,0 +1,19 @@
+.latest__list {
+  display: grid;
+  grid-template-columns: repeat(4, 15rem);
+  gap: 2rem;
+  margin: 5rem;
+  margin-left: 10rem;
+}
+.latest__list__card {
+  width: 15rem;
+  height: 20rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: black 0 5px 15px;
+}
+.latest__list__card img {
+  width: 15rem;
+  height: 20rem;
+  border-radius: 10px;
+}
