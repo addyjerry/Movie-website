@@ -1,61 +1,62 @@
-import React, { useState } from "react";
-import "./Home.css";
-import thicket from "../../assets/pagethree/the-thicket-movie-poster.jpg";
-import twisters from "../../assets/twisters-movie-poster-md.jpg";
-import crow from "../../assets/the-crow-movie-poster-md.jpg";
-import subservience from "../../assets/subservience-movie-poster-md.jpg";
-import lostcity from "../../assets/the-lost-city-movie-poster-md.jpg";
-import strangers from "../../assets/strangers-movie-poster-md.jpg";
+import React,{useState} from 'react'
+import "./Pagetwo.css";
+import peter from "../../assets/pagethree/peter-five-eight-movie-poster-md.jpg";
+import rebel from "../../assets/pagethree/rebel-ridge-poster.jpg";
+import seal from "../../assets/pagethree/seal-team-movie-poster-md.jpg";
+import transformers from "../../assets/subservience-movie-poster-md.jpg";
+import tulsa from "../../assets/pagethree/tulsa-king-movie-poster-md.jpg";
+import uglies from "../../assets/strangers-movie-poster-md.jpg";
 import slingshot from "../../assets/slingshot-movie-poster-md.jpg";
 import sightmovie from "../../assets/sight-movie-poster-md.jpg";
 import rob from "../../assets/rob-peace-movie-poster-md.jpg";
 import lost from "../../assets/lost-soulz-movie-poster.jpg";
 import long from "../../assets/long-gone-heroes-movie-poster.jpg";
 import kneecap from "../../assets/kneecap-movie-poster-md.jpg";
+import front from "../../assets/pagethree/the-front-room-movie-poster-md.jpg";
 
-const Home = () => {
+const Pagethree = () => {
   const [cards, setCards] = useState([
     {
       id: 1,
-      banner: thicket,
+      banner: peter,
       genre: "Genre :Action",
       date: "Release date :01 / 05 / 2023",
-      url: "https://www.lulacloud.com/d/fgIzJKZky36-the-thicket-2024-awafim-tv-mkv",
+      url: "https://www.lulacloud.com/d/TxkhDdQMr67-peter-five-eight-2024-awafim-tv-mkv",
     },
     {
       id: 2,
-      banner: twisters,
-      genre: "Genre :Horror",
+      banner: rebel,
+      genre: "Genre :Action,Crime",
       date: "Release date :04 / 06 / 2023",
-      url: "https://www.lulacloud.com/d/EvnDrDPXv31-twisters-2024-awafim-tv-mkv",
+      url: "https://www.lulacloud.com/d/MshVpnFAh91-rebel-ridge-2024-awafim-tv-mkv",
     },
     {
       id: 3,
-      banner: crow,
-      genre: "Genre :Drama, Action",
+      banner: seal,
+      genre: "Genre :Drama, Action,Adventure,War",
       date: "Release date :01 / 12 / 2023",
-      url: "https://www.lulacloud.com/d/BGGkhzroe72-the-crow-2024-awafim-tv-mkv",
+      url: "https://www.lulacloud.com/d/FhebyUoWS18-seal-team-s07e08-appetite-for-destruction-awafim-tv-mkv",
     },
     {
       id: 4,
-      banner: lostcity,
-      genre: "Genre :Action",
+      banner: front,
+      genre: "Genre : Horror, Thriller",
       date: "Release date :01 / 05 / 2023",
-      url: "https://www.lulacloud.com/d/GbAhdANGe64-the-lost-city-2022-awafim-tv-mp4",
+      url: "https://www.lulacloud.com/d/fJHFyyQsm70-the-front-room-2024-awafim-tv-mkv",
     },
     {
       id: 5,
-      banner: subservience,
+      banner: transformers,
       genre: "Genre : Horror, Sci-Fi",
       date: "Release date :01 / 05 / 2023",
-      url: "https://www.lulacloud.com/d/lgeDpbOii25-subservience-2024-awafim-tv-mp4",
+      url: "https://www.lulacloud.com/d/BPXlLlUcD80-transformers-rise-of-the-beasts-2023-awafim-tv-mkv",
     },
     {
       id: 6,
-      banner: strangers,
+      banner: tulsa,
       genre: "Genre : Horror , Thriller",
       date: "Release date :01 / 05 / 2023",
-      url: "https://www.lulacloud.com/d/SCsxtxmmz74-the-strangers-chapter-1-2024-awafim-tv-mkv",
+      url: "https://www.lulacloud.com/d/uPimJuVqW78-tulsa-king-s02e02-kansas-city-blues-awafim-tv-mkv",
     },
     {
       id: 7,
@@ -78,6 +79,13 @@ const Home = () => {
       date: "Release date :01 / 05 / 2023",
       url: "https://www.lulacloud.com/d/YMnjfrygL63-rob-peace-2024-awafim-tv-mkv",
     },
+    {
+        id: 9,
+        banner: uglies,
+        genre: "Genre : Adventure,Drama ,Sci-Fi",
+        date: "Release date :01 / 05 / 2023",
+        url: "https://www.lulacloud.com/d/SyJoPXJmx99-uglies-2024-awafim-tv-mkv",
+      },
     {
       id: 10,
       banner: lost,
@@ -134,4 +142,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Pagethree

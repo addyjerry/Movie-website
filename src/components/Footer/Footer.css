@@ -17,3 +17,37 @@
   list-style: none;
   font-size: 2rem;
 }
+#footer img {
+  margin-left: 90%;
+}
+
+/** MEDIA QUERRIES **/
+/** Mobile Devices **/
+@media (max-width:600px) {
+  #footer {
+    background-color: rgb(22, 22, 22, 0.6);
+    color: white;
+    text-align: center;
+  }
+  #copyright {
+    display: flex;
+    margin-left: 25%;
+    text-align: center;
+    font-size: 10px;
+  }
+  .media ul {
+    margin-left: 0%;
+    display: flex;
+    gap: 2rem;
+  }
+  .media ul li {
+    list-style: none;
+    font-size: 2rem;
+  }
+  #footer img {
+    margin-left: 90%;
+  }
+  #footer h2{
+    font-size: 10px;
+  }
+}

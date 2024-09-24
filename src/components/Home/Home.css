@@ -17,3 +17,62 @@
   height: 20rem;
   border-radius: 10px;
 }
+
+.description {
+  display: block;
+  font-size: 1rem;
+  background-color: rgb(17, 17, 17, 0.5);
+  color: white;
+  z-index: 1;
+  position: relative;
+  height: 10rem;
+  left: 0;
+  right: 0;
+  top: -60%;
+
+  text-align: center;
+}
+.description button {
+  width: 10rem;
+  height: 3rem;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: red;
+}
+
+/** MEDIA QUERRIES **/
+/** Mobile Devices **/
+@media (max-width: 600px) {
+  .latest__list {
+    display: grid;
+    grid-template-columns: repeat(2, 10rem);
+    gap: 1rem;
+    margin: 1rem;
+    margin-left: 0rem;
+  }
+  .latest__list__card {
+    width: 10rem;
+    height: 15rem;
+  }
+  .latest__list__card img {
+    width: 10rem;
+    height: 15rem;
+    border-radius: 10px;
+  }
+
+  .description {
+    display: block;
+    font-size: 13px;
+    background-color: rgb(17, 17, 17, 0.5);
+    color: white;
+    z-index: 1;
+    position: relative;
+    height: 7rem;
+    left: 0;
+    right: 0;
+    top: -60%;
+    text-align: center;
+  }
+
+}

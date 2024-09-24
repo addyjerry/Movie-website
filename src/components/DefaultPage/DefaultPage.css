@@ -2,6 +2,9 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
+#Default a {
+  color: black;
+}
 nav ul {
   display: flex;
   gap: 5px;
@@ -24,4 +27,38 @@ nav ul li {
 }
 .logo__area img {
   width: 7rem;
+}
+nav ul a {
+  color: black;
+}
+
+/**MEDIA QUERRIES **/
+/** For mobile devices **/
+@media (max-width: 600px) {
+  nav ul {
+    display: flex;
+    gap: 5px;
+    margin-left: 10%;
+  }
+
+  nav ul li {
+    list-style: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 1.5rem;
+    height: 1.5rem;
+    text-align: center;
+    font-size: 1rem;
+    background-color: rgb(94, 95, 95, 0.3);
+    padding: 5px;
+  }
+  .logo__area {
+    display: flex;
+    font-weight: 700;
+    margin-left: 25%;
+    text-align: center;
+  }
+  .logo__area img{
+    width: 6rem;
+  }
 }
